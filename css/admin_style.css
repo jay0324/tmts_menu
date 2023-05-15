@@ -1,0 +1,31 @@
+.fa-edit:before, .fa-pencil-square-o:before {
+    margin-right: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* 0711 */
+.clean{overflow: hidden;}
+.booth-ti {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.booth-in {
+    border: 1px solid #d2d6de;
+    float: left;
+    width: 50%;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.p_left{margin-left:1%}
+.w49 { width: 49%;}
+
+/* 0712 */
+.kv-file-content img {
+    width: 260px !important;
+    height: auto !important;
+}

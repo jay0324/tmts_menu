@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="16.199" viewBox="0 0 23 16.199">
+  <g id="icon-mail" transform="translate(0 0.333)">
+    <g id="Rectangle_439" data-name="Rectangle 439" transform="translate(0 -0.333)" fill="#fff" stroke="#f15923" stroke-width="1">
+      <rect width="23" height="16" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="22" height="15" rx="1.5" fill="none"/>
+    </g>
+    <path id="Path_1812" data-name="Path 1812" d="M-18820.8,12084l10.363,8.063,10.25-8.062" transform="translate(18822 -12083)" fill="none" stroke="#f15923" stroke-width="1"/>
+    <path id="Path_1813" data-name="Path 1813" d="M-18820.8,12097.425l8.7-8.126" transform="translate(18822 -12081.924)" fill="none" stroke="#f15923" stroke-width="1"/>
+    <path id="Path_1814" data-name="Path 1814" d="M-18812.389,12097.138l-8.414-7.839" transform="translate(18834.389 -12081.924)" fill="none" stroke="#f15923" stroke-width="1"/>
+  </g>
+</svg>

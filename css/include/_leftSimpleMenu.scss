@@ -1,0 +1,199 @@
+/********   left_menu *******/
+.left_menu ul li:last-child a:after {
+    content: "";
+    width: 80%;
+    height: 4px;
+    background: #13216a;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+/* 0725 search 側選單 */
+.left_menu.search_left .la2 .panel:last-child {
+    border: none;
+    box-shadow: none;
+}
+.left_menu.search_left .panel-body {
+    padding: 0;
+}
+.left_menu.search_left h4.panel-title {
+    font-size: 20px;margin-bottom: 10px;
+}
+.left_menu.search_left .panel-body a {
+    border-bottom: none;
+}
+.left_menu.search_left .panel-heading {
+    padding: 0;
+}
+.left_menu.search_left .la2 .panel {
+    border-bottom: solid 1px #eee;
+}
+.left_menu.search_left .panel-group {
+    margin-bottom: 0;
+}
+.left_menu.search_left .panel.panel-default{padding: 10px}
+.left_menu.search_left .panel {font-size: 18px;}
+.panel-heading h4.panel-title a.pm:before {
+    content: "＋";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*清除*/
+.left_menu ul.values li a,
+.left_menu ul.values li:last-child a{
+    border: none;
+}
+.left_menu ul.values li:last-child a:after,
+.left_menu ul.values li:last-child a:before{
+    display: none;
+}
+
+/******  0725 search 側選單  ben ********/
+
+.left_menu {
+    #left-search-menu {
+        .openmenu{
+            left: 0;
+        }
+        li:last-child {
+            a {
+
+                &:before,
+                &:after {
+                    display: none;
+                }
+            }
+        }
+
+        li {
+            border: none;
+
+            &:last-child {
+                border: none;
+
+                a {
+                    border: none;
+                }
+            }
+
+            &.active {
+                >a {
+                    .openmenu .simplemenu-normal-icon {
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+
+            a {
+                border: none;
+            }
+        }
+
+        .simplemenu-normal-icon {
+            .fa-angle-right {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        a {
+            .openmenu {
+                .simplemenu-normal-icon {
+                    right: auto;
+                    left: 0;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+
+        >li {
+            border: none;
+
+            >a {
+                font-weight: bold;
+                padding: 10px 15px 10px 46px;
+
+                .openmenu {
+                    .simplemenu-normal-icon {
+                        top: 4px;
+                        left: 8px;
+                    }
+                }
+            }
+
+            a {
+                font-size: 16px;
+
+                &:before {
+                    display: none;
+                }
+
+            }
+
+            >ul {
+                border-top: none;
+
+                >li {
+                    >a {
+                        padding: 8px 15px 8px 68px;
+
+                        .openmenu {
+                            .simplemenu-normal-icon {
+                                left: 30px;
+                                top: 2px;
+                            }
+                        }
+
+                    }
+                    &.active{                        
+                        >a{
+                            background: #efefef;
+                        }                        
+                    }
+
+                    >ul {
+                        >li {
+                            >a {
+                                color: #000;
+                                padding: 6px 15px 6px 83px;
+
+                                &:hover {
+                                    background: #efefef;
+                                }
+                            }
+                            &.active{                        
+                                >a{
+                                    background: #efefef;
+                                }                        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.border-gap {
+    height: 4px;
+    width: 100%;
+    background: #13216a;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 20%;
+        right: 0;
+        height: 4px;
+        background: #3883ec;
+
+    }
+}

@@ -1,0 +1,14 @@
+.disable-scroll{
+    @include rwd('mobile-xl'){
+        overflow-y:hidden;
+    }
+
+    .nav-mega{
+        .wrap{
+            @include rwd('mobile-xl'){
+                overflow-y: auto;
+                height:100vh;
+            }
+        }
+    }
+}

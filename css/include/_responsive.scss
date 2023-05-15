@@ -1,0 +1,43 @@
+$breakpoints: (
+  'mobile-xs': (max-width: 320px),
+  'mobile-s': (max-width: 360px),
+  'mobile': (max-width: 375px),
+  'mobile-l': (max-width: 480px),
+  'mobile-xl': (max-width: 640px),
+  'tablet': (max-width: 768px),
+  'tablet-l': (max-width: 960px),
+  'tablet-xl': (max-width: 1024px),
+  'laptop-xs': (max-width: 1080px),
+  'laptop-s': (max-width: 1280px),
+  'laptop': (max-width: 1366px),
+  'laptop-l': (max-width: 1440px),
+  'laptop-xl': (max-width: 1680px),
+  'desktop': (max-width: 1920px),
+  'desktop-l': (max-width: 2560px), // iMac 27
+  'desktop-xl': (max-width: 5120px), // iMac 5k
+  'tv-2k:': (max-width: 2048px), // 2048 x 1080
+  'tv-4k': (max-width: 3840px), // 3840 x 2160
+  'tv-8k': (max-width: 7680px), // 7680 x 4320
+  // 'tv-4k': (max-width: 4096px), //
+) !default;
+
+@mixin rwd($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+    +"Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+@mixin rwd-custom($size) {
+	@media (max-width : $size) {
+		@content;
+	}
+}

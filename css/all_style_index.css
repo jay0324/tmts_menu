@@ -1,0 +1,90 @@
+    @charset "UTF-8";
+    /* CSS Document */
+    /******** head  *******/
+
+    #header {
+        position: relative;
+    }
+
+    /*     .banner .over {
+
+        overflow: inherit;
+    } */
+    .banner .arrow {
+        bottom: 7%;
+    }
+
+
+    /*    .slick-dots li button:before {content: url(../images/dot.png);}
+    .slick-dots li { width: 50px;}
+    .slick-dots li.slick-active button:before { content: url(../images/dot2.png);opacity: 1;}
+        */
+
+    /******** RWD  *******/
+
+    @media screen and (max-width: 640px) {
+        .sec1 .left ul li {
+            float: left;
+            width: 30%;
+        }
+
+        .quick-way ul li a {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #fff;
+        }
+
+        .quick-way ul li a p {
+            left: 41%;
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 574px) {
+        .quick-way ul li a p {
+            left: 46%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .quick-way ul li a {
+            width: 120px;
+            height: 120px;
+        }
+
+        .quick-way ul li a p {
+            left: 43%;
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .quick-way ul li a p {
+            left: 47%;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .quick-way ul li a {
+            width: 100px;
+            height: 100px;
+        }
+
+        .quick-way ul li a p {
+            left: 45%;
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .quick-way ul li a p {
+            left: 50%;
+        }
+    }
+
+    @media screen and (max-width: 330px) {
+        .quick-way ul li a {
+            width: 90px;
+            height: 90px;
+        }
+    }

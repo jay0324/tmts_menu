@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24.042" viewBox="0 0 24 24.042">
+  <g id="icon-global" transform="translate(0 0.333)">
+    <g id="Ellipse_73" data-name="Ellipse 73" transform="translate(0 -0.333)" fill="none" stroke="#000" stroke-width="1">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="11.5" fill="none"/>
+    </g>
+    <line id="Line_134" data-name="Line 134" x2="23" transform="translate(0.5 12)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_135" data-name="Line 135" y2="23" transform="translate(12 0.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1815" data-name="Path 1815" d="M-18712.437,12105.5s4,2.917,4,11.482-4,10.986-4,10.986" transform="translate(18726.875 -12104.688)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1816" data-name="Path 1816" d="M-18708.437,12105.5s-4,2.917-4,11.482,4,10.986,4,10.986" transform="translate(18718 -12104.688)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1817" data-name="Path 1817" d="M-18723.437,12108.969s1.555,2.5,8.438,2.5,8.5-2.5,8.5-2.5" transform="translate(18727 -12105)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Path_1818" data-name="Path 1818" d="M-18723.437,12111.469s1.555-2.5,8.438-2.5,8.5,2.5,8.5,2.5" transform="translate(18727 -12092)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

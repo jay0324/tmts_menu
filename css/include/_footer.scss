@@ -1,0 +1,217 @@
+.footer {
+  background-color: $color-black-l30;
+  color: $color-gray2-l25;
+  padding: 36px 0 60px;
+
+  a {
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: $color-white;
+      text-decoration: underline;
+    }
+  }
+
+  .wrap {
+    position: relative;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+  }
+
+  .right {
+    float: right;
+    width: 50%;
+  }
+
+  @include rwd(tablet-l) {
+
+    .left,
+    .right {
+      @include no-flot;
+    }
+  }
+}
+
+.goto-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.foot,
+.foot-down {
+  @include clearfix;
+}
+
+.foot {
+  .right {
+    width: 29%;
+    margin-top: 72px;
+  }
+
+  .download {
+    img {
+      width: 92px;
+      height: 92px;
+      vertical-align: text-top;
+      margin-left: 24px;
+    }
+  }
+
+  @include rwd(tablet-l) {
+    .right {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+}
+
+.foot-info {
+  .organ {
+    margin-bottom: 24px;
+
+    span {
+      &::before {
+        content: "";
+        width: 1px;
+        background: $color-white;
+        height: 23px;
+        display: inline-block;
+        margin: 0 12px;
+      }
+    }
+
+    a {
+      position: relative;
+
+      &::after {
+        content: "";
+        background: url(../images/tmba-w.png) no-repeat;
+        display: inline-block;
+        width: 37px;
+        height: 43px;
+        transition: all 0.3s ease;
+        margin-left: 4px;
+      }
+
+      &:hover::after {
+        background: url(../images/tmba.png) no-repeat;
+      }
+    }
+
+    img {
+      vertical-align: baseline;
+    }
+  }
+
+  .title {
+    color: $color-white;
+  }
+}
+
+.follw {
+  margin-bottom: 12px;
+
+  .icon {
+    margin-left: 86px;
+
+    a {
+      background: $color-white-d30;
+      display: inline-block;
+      width: 30px;
+      height: 21px;
+      line-height: 21px;
+      text-align: center;
+      border-radius: 3px;
+      transition: all 0.4 ease;
+
+      &.fb {
+        margin-right: 10px;
+
+        img {
+          width: 7px;
+          height: 14px;
+          margin-top: -2px;
+        }
+
+        &:hover {
+          background: $facebook;
+        }
+      }
+
+      &.youtube {
+        img {
+          width: 9px;
+          height: 11px;
+          margin-top: -3px;
+        }
+
+        &:hover {
+          background: $youtube;
+        }
+      }
+    }
+  }
+}
+
+.foot-down {
+  border-top: 1px solid $color-gray2-l25;
+  margin-top: 30px;
+  padding-top: 12px;
+
+  .right {
+    width: inherit;
+    position: relative;
+    @include clearfix;
+  }
+}
+
+.browser {
+  img {
+    width: 18px;
+    height: 18px;
+    margin-top: -4px;
+  }
+}
+
+.privacy {
+  float: left;
+}
+
+.design {
+  float: right;
+
+  a {
+    color: $color-white;
+  }
+}
+
+.sending-wrap {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  width: 100px;
+  height: 54px;
+  background: #ddd;
+  margin: 0 auto 8px;
+  position: relative;
+
+  .la-ball-fall.sending {
+    opacity: 1;
+    visibility: visible;
+    margin-top: -9px;
+  }
+  .la-ball-fall{
+    color: #CCC;
+  }
+}
+

@@ -1,0 +1,72 @@
+$color-primary: #13216a !default;
+$color-secondary: #00337a !default;
+$color-secondary2: #3883ec !default;
+$color-tertiary: #e0f3ff !default;
+$color-tertiary2: #3d4543 !default;
+$color-tertiary3: #ff0 !default;
+
+$color-black: #000 !default;
+$color-black-l05: lighten($color-black, 5%); //#0d0d0d
+$color-black-l10: lighten($color-black, 10%); //#1a1a1a
+$color-black-l15: lighten($color-black, 15%); //#262626
+$color-black-l20: lighten($color-black, 20%); //#333333
+$color-black-l25: lighten($color-black, 25%); //#404040
+$color-black-l30: lighten($color-black, 30%); //#4d4d4d
+$color-black-l35: lighten($color-black, 35%); //#595959
+$color-black-l40: lighten($color-black, 40%); //#666666
+$color-black-l45: lighten($color-black, 45%); //#737373
+$color-black-l50: lighten($color-black, 50%); //#808080
+
+$color-white: #fff !default;
+$color-white-d05: darken($color-white, 5%); //f2f2f2
+$color-white-d10: darken($color-white, 10%); //#e6e6e6
+$color-white-d15: darken($color-white, 15%); //#d9d9d9
+$color-white-d20: darken($color-white, 20%); //#cccccc
+$color-white-d25: darken($color-white, 25%); //#bfbfbf
+$color-white-d30: darken($color-white, 30%); //#b3b3b3
+$color-white-d35: darken($color-white, 35%); //#a6a6a6
+$color-white-d40: darken($color-white, 40%); //#999999
+$color-white-d45: darken($color-white, 45%); //#8c8c8c
+$color-white-d50: darken($color-white, 50%); //#808080
+
+$color-gray: #888 !default;
+$color-gray-l05: lighten($color-gray, 5%); //#959595
+$color-gray-l10: lighten($color-gray, 10%); //#a2a2a2
+$color-gray-l15: lighten($color-gray, 15%); //#aeaeae
+$color-gray-l20: lighten($color-gray, 20%); //#bbbbbb
+$color-gray-l25: lighten($color-gray, 25%); //#c8c8c8
+$color-gray-l30: lighten($color-gray, 30%); //#d5d5d5
+$color-gray-l35: lighten($color-gray, 35%); //#e1e1e1
+$color-gray-l40: lighten($color-gray, 40%); //#eeeeee
+$color-gray-l45: lighten($color-gray, 45%); //#fbfbfb
+$color-gray-d05: darken($color-gray, 5%); //#7b7b7b
+$color-gray-d10: darken($color-gray, 10%); //#6f6f6f
+$color-gray-d15: darken($color-gray, 15%); //#626262
+$color-gray-d20: darken($color-gray, 20%); //#555555
+$color-gray-d25: darken($color-gray, 25%); //#484848
+$color-gray-d30: darken($color-gray, 30%); //#3c3c3c
+$color-gray-d35: darken($color-gray, 35%); //#2f2f2f
+$color-gray-d40: darken($color-gray, 40%); //#222222
+$color-gray-d45: darken($color-gray, 45%); //#151515
+$color-gray-d50: darken($color-gray, 50%); //#090909
+
+$color-gray2: #777 !default;
+$color-gray2-l05: lighten($color-gray2, 5%); //#848484
+$color-gray2-l10: lighten($color-gray2, 10%); //#919191
+$color-gray2-l15: lighten($color-gray2, 15%); //#9d9d9d
+$color-gray2-l20: lighten($color-gray2, 20%); //#aaaaaa
+$color-gray2-l25: lighten($color-gray2, 25%); //#b7b7b7
+$color-gray2-l30: lighten($color-gray2, 30%); //#c4c4c4
+$color-gray2-l35: lighten($color-gray2, 35%); //#d0d0d0
+$color-gray2-l40: lighten($color-gray2, 40%); //#dddddd
+$color-gray2-l45: lighten($color-gray2, 45%); //#eaeaea
+$color-gray2-l50: lighten($color-gray2, 50%); //#f7f7f7
+$color-gray2-d05: darken($color-gray2, 5%); //#6a6a6a
+$color-gray2-d10: darken($color-gray2, 10%); //#5e5e5e
+$color-gray2-d15: darken($color-gray2, 15%); //#515151
+$color-gray2-d20: darken($color-gray2, 20%); //#444444
+$color-gray2-d25: darken($color-gray2, 25%); //#373737
+$color-gray2-d30: darken($color-gray2, 30%); //#2b2b2b
+$color-gray2-d35: darken($color-gray2, 35%); //#1e1e1e
+$color-gray2-d40: darken($color-gray2, 40%); //#111111
+$color-gray2-d45: darken($color-gray2, 45%); //#040404

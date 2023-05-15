@@ -1,0 +1,30 @@
+// clearfix
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// center(flex)
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// float none
+@mixin no-flot {
+  float: none;
+  width: 100%;
+}
+
+//icon png(ie8) svg
+@mixin svg-icon($icon, $widit, $height) {
+  display: inline-block;
+  background-image: url("../images/#{$icon}.png");
+  background-image: none, url("../images/#{$icon}.svg");
+  width: $width;
+  height: $height;
+}
