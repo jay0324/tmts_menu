@@ -11,12 +11,15 @@ $(function(){
     });
 
     $(window).on('scroll resize', function(){
-        setBodyPadding();
-        if ($('body,html').scrollTop() > 100){
+        if ($('body,html').scrollTop() > 0){
             $('body').addClass('scroll-down');
         }else{
             $('body').removeClass('scroll-down');
         }
+    });
+
+    $(window).on('resize', function(){
+        setBodyPadding();
     });
 
     function setBodyPadding(){
